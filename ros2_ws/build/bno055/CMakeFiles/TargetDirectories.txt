@@ -1,0 +1,9 @@
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/uninstall.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/bno055_uninstall.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/test.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/edit_cache.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/rebuild_cache.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/list_install_components.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/install.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/install/local.dir
+/home/devtex/MAS514-UiABOT/ros2_ws/build/bno055/CMakeFiles/install/strip.dir

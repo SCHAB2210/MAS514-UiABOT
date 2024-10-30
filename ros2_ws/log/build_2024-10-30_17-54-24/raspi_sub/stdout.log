@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub
+-- Install configuration: ""
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/forward_kinematic.py
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/odom.py
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/base_to_tf.py
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/serial_interface.py
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/package_run_dependencies/raspi_sub
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/parent_prefix_path/raspi_sub
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/ament_prefix_path.sh
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/path.sh
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/path.dsv
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.bash
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.sh
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.zsh
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.dsv
+-- Installing: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.dsv
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/packages/raspi_sub
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/cmake/raspi_subConfig.cmake
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/cmake/raspi_subConfig-version.cmake
+-- Up-to-date: /home/devtex/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.xml

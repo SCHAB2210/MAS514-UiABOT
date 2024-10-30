@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/devtex/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/forward_kinematics.py":
+  No such file or directory.
+
+[0m

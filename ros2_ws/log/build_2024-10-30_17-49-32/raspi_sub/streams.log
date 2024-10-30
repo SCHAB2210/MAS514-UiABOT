@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub -- -j32 -l32
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.138s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.138s] -- Added test 'lint_cmake' to check CMake code style
+[0.138s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.138s] -- Added test 'xmllint' to check XML markup files
+[0.138s] -- Configuring done
+[0.139s] -- Generating done
+[0.140s] -- Build files have been written to: /home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub
+[0.154s] Invoked command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub -- -j32 -l32
+[0.166s] Invoking command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub
+[0.170s] -- Install configuration: ""
+[0.170s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.170s]   file INSTALL cannot find
+[0.170s]   "/home/devtex/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/forward_kinematics.py":
+[0.170s]   No such file or directory.
+[0.170s] 
+[0.170s] [0m
+[0.171s] Invoked command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devtex/MAS514-UiABOT/ros2_ws/build/raspi_sub

@@ -1,0 +1,4 @@
+Invoking command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description -- -j32 -l32
+Invoked command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description -- -j32 -l32
+Invoking command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description
+Invoked command in '/home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devtex/MAS514-UiABOT/ros2_ws/build/robot_description
