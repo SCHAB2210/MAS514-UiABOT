@@ -27,7 +27,7 @@ install(PROGRAMS
     src/odom.py
     src/base_to_tf.py
     src/serial_interface.py
-    DESTINATION lib/${PROJECT_NAME}
+DESTINATION lib/${PROJECT_NAME}
 )
 
 

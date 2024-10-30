@@ -77,9 +77,10 @@ class tf2Wheel(Node):
         m =np.matmul(mat1,mat2)
         m_m = np.matmul(T1,m)
 
-        self.robot_vx= float(m_m[0])
-        self.robot_vy = float(m_m[1])
-        self.robot_w = float(m_m[2])
+        self.robot_vx = float(m_m[0].item())
+        self.robot_vy = float(m_m[1].item())
+        self.robot_w = float(m_m[2].item())
+
         now = self.get_clock().now()
         
         ### --- Publishing Odometry calculated from Wheels --- ###

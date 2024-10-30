@@ -1,0 +1,346 @@
+[0.153s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7ff3a5d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff800a1430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff800a1430>>, mixin_verb=('build',))
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.210s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uiabot/MAS514-UiABOT/ros2_ws'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_cmake' and name 'bno055'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/raspi_sub) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/raspi_sub' with type 'ros.ament_cmake' and name 'raspi_sub'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.299s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.299s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.299s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.299s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.300s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.300s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.300s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/uiabot/MAS514-UiABOT/ros2_ws/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/uiabot/ros2_ws/install
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055', 'merge_install': False, 'path': '/home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'raspi_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'raspi_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub', 'merge_install': False, 'path': '/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description', 'merge_install': False, 'path': '/home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.389s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055'
+[0.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055 -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2
+[2.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub
+[2.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub -- -j4 -l4
+[2.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055 -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055 -- -j4 -l4
+[2.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub -- -j4 -l4
+[2.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description
+[2.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description -- -j4 -l4
+[3.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055 -- -j4 -l4
+[3.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspi_sub)
+[3.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub' for CMake module files
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub' for CMake config files
+[3.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspi_sub', 'cmake_prefix_path')
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/hook/cmake_prefix_path.ps1'
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/hook/cmake_prefix_path.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/hook/cmake_prefix_path.sh'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/bin'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/pkgconfig/raspi_sub.pc'
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/python3.12/site-packages'
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/bin'
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.ps1'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.sh'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.bash'
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.zsh'
+[3.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/colcon-core/packages/raspi_sub)
+[3.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description -- -j4 -l4
+[3.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055
+[3.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055' for CMake module files
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055' for CMake config files
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'cmake_prefix_path')
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/hook/cmake_prefix_path.ps1'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/hook/cmake_prefix_path.dsv'
+[3.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/hook/cmake_prefix_path.sh'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/bin'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/lib/python3.12/site-packages'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/bin'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.ps1'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.dsv'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.sh'
+[3.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.bash'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.zsh'
+[3.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/colcon-core/packages/bno055)
+[3.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspi_sub)
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub' for CMake module files
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub' for CMake config files
+[3.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspi_sub', 'cmake_prefix_path')
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/hook/cmake_prefix_path.ps1'
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/hook/cmake_prefix_path.dsv'
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/hook/cmake_prefix_path.sh'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/bin'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/pkgconfig/raspi_sub.pc'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/python3.12/site-packages'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/bin'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.ps1'
+[3.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.dsv'
+[3.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.sh'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.bash'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.zsh'
+[3.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/colcon-core/packages/raspi_sub)
+[3.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description
+[3.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055' for CMake module files
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055' for CMake config files
+[3.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'cmake_prefix_path')
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/hook/cmake_prefix_path.ps1'
+[3.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/hook/cmake_prefix_path.dsv'
+[3.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/hook/cmake_prefix_path.sh'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/bin'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/lib/python3.12/site-packages'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/bin'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.ps1'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.dsv'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.sh'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.bash'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.zsh'
+[3.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/colcon-core/packages/bno055)
+[3.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description' for CMake module files
+[3.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description' for CMake config files
+[3.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/bin'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/python3.12/site-packages'
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/bin'
+[3.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[3.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[3.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[3.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[3.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[3.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description' for CMake module files
+[3.458s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description' for CMake config files
+[3.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/bin'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/python3.12/site-packages'
+[3.462s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/bin'
+[3.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[3.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[3.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[3.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[3.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2
+[3.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[23.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[23.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2
+[23.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[23.202s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2' for CMake module files
+[23.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/sllidar_ros2
+[23.203s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2' for CMake config files
+[23.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[23.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[23.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[23.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[23.205s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/lib'
+[23.205s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/bin'
+[23.206s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[23.206s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[23.206s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/bin'
+[23.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[23.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[23.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[23.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[23.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[23.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[23.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[23.306s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2' for CMake module files
+[23.307s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2' for CMake config files
+[23.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[23.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[23.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[23.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[23.314s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/lib'
+[23.314s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/bin'
+[23.315s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[23.315s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[23.315s] Level 1:colcon.colcon_core.environment:checking '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/bin'
+[23.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[23.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[23.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[23.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[23.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[23.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[23.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.325s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.348s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.381s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/local_setup.ps1'
+[23.383s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uiabot/MAS514-UiABOT/ros2_ws/install/_local_setup_util_ps1.py'
+[23.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/setup.ps1'
+[23.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/local_setup.sh'
+[23.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uiabot/MAS514-UiABOT/ros2_ws/install/_local_setup_util_sh.py'
+[23.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/setup.sh'
+[23.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/local_setup.bash'
+[23.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/setup.bash'
+[23.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/local_setup.zsh'
+[23.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uiabot/MAS514-UiABOT/ros2_ws/install/setup.zsh'
