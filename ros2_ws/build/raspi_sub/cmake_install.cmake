@@ -48,6 +48,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/odom.py"
     "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/base_to_tf.py"
     "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/serial_interface.py"
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/joint_state_publisher.py"
     )
 endif()
 

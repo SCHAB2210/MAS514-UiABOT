@@ -2,6 +2,7 @@
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/odom.py
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/base_to_tf.py
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/serial_interface.py
+/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/joint_state_publisher.py
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/package_run_dependencies/raspi_sub
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/parent_prefix_path/raspi_sub
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/ament_prefix_path.sh
