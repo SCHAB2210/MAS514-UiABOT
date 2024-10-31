@@ -17,7 +17,7 @@ global theta_velocity
 global ser
 global v_x, v_y, rot
 
-ser = serial.Serial('/dev/ttyUSB0', baudrate=9600, timeout=0.1)
+ser = serial.Serial('/dev/ttyUSB0', baudrate=115200, timeout=0.1)
 ## ---- Msg variables are float 32 -> 32 bits -> 4 bytes to send per float value ---- ## 
 
 ## -- Function for doing fwd kin -- ##
@@ -67,21 +67,25 @@ class Velocity(Node):
         theta_velocity = msg.angular.z
         head = 36
 
-        bytePack = (struct.pack("=Bff", head, x_velocity, theta_velocity))
+        bytePack = (struct.pack("=BBff", 36, 36, x_velocity, theta_velocity))
         ser.write(bytePack)
 
     def wheel_callback(self):
         wheel_speeds = Twist()
         try:
-            read_val = ser.read(size=9)
-            unpacked = struct.unpack("=Bff", read_val)
-            self.head1, self.right, self.left = unpacked
+            read_val = ser.read(50)
+            #unpacked = struct.unpack("=BBff", read_val)
+            #self.head1, self.head2, self.right, self.left = unpacked
 
-            if self.head1 == 36:
-                wheel_speeds.angular.x = self.right
-                wheel_speeds.angular.y = self.left
-                
-                self.wheel_publisher.publish(wheel_speeds)
+            #if self.head1 == 36 and self.head2 == 36:
+            #    wheel_speeds.angular.x = self.right
+            #    wheel_speeds.angular.y = self.left
+            headPos = read_val.find(b'\x24\x24')
+            data = read_val[(headPos+2):(headPos+2+4+4)]
+            self.right, self.left  = struct.unpack("=ff", data)
+            wheel_speeds.angular.x = self.right
+            wheel_speeds.angular.y = self.left
+            self.wheel_publisher.publish(wheel_speeds)
 
         except struct.error as err:
             print(err)        

@@ -3,22 +3,28 @@
 <package format="3">
   <name>robot_description</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Package containing the robot description and nodes for joint states, odometry, and lidar integration</description>
   <maintainer email="simoneliasc.98@gmail.com">devtex</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <!-- Dependencies for robot description functionality -->
+  
+  <!-- Dependencies for robot description and state publishing -->
   <depend>rclcpp</depend>
+  <depend>rclpy</depend>
   <depend>robot_state_publisher</depend>
   <depend>joint_state_publisher</depend>
   <depend>urdf</depend>
   <depend>xacro</depend>
   <depend>tf2_ros</depend>
+
+  <!-- Dependencies for messages and topics -->
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
 
+  <!-- Testing dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 

@@ -51,6 +51,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_description" TYPE PROGRAM FILES
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/serial_interface.py"
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/odom.py"
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/base_to_tf.py"
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/joint_state_publisher.py"
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_description")
 endif()
 
