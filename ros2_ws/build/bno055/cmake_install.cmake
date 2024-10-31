@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bno055" TYPE PROGRAM FILES
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055/src/bno_node.py"
+    "/home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055/src/tf_bno.py"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bno055")
 endif()
 

@@ -31,6 +31,8 @@ install(PROGRAMS
     /home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/base_to_tf.py
     /home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub/src/joint_state_publisher.py
     /home/uiabot/MAS514-UiABOT/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp
+    /home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055/src/bno_node.py
+    /home/uiabot/MAS514-UiABOT/ros2_ws/src/bno055/src/tf_bno.py
     DESTINATION lib/${PROJECT_NAME}
 )
 

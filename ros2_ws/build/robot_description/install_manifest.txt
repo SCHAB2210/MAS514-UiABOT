@@ -19,6 +19,8 @@
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/base_to_tf.py
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/joint_state_publisher.py
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/sllidar_node.cpp
+/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/bno_node.py
+/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/tf_bno.py
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
 /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh

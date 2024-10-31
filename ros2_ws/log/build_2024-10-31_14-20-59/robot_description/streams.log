@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055:/home/uiabot/MAS514-UiABOT/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/install/robot_description:/home/uiabot/MAS514-UiABOT/install/raspi_sub:/home/uiabot/MAS514-UiABOT/install/bno055:/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description:/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description
+[0.148s] -- The C compiler identification is GNU 13.2.0
+[0.291s] -- The CXX compiler identification is GNU 13.2.0
+[0.323s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.573s] -- Detecting C compile features
+[0.573s] -- Detecting C compile features - done
+[0.608s] -- Detecting CXX compiler ABI info
+[1.115s] -- Detecting CXX compiler ABI info - done
+[1.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.158s] -- Detecting CXX compile features
+[1.158s] -- Detecting CXX compile features - done
+[1.171s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.807s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.184s] -- Found rclpy: 7.1.1 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.193s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.368s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.423s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.823s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.932s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.473s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.477s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.487s] -- Added test 'lint_cmake' to check CMake code style
+[3.494s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.518s] -- Added test 'xmllint' to check XML markup files
+[3.538s] -- Configuring done (3.5s)
+[3.552s] -- Generating done (0.0s)
+[3.556s] -- Build files have been written to: /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description
+[3.580s] Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055:/home/uiabot/MAS514-UiABOT/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/install/robot_description:/home/uiabot/MAS514-UiABOT/install/raspi_sub:/home/uiabot/MAS514-UiABOT/install/bno055:/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description:/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description
+[3.588s] Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055:/home/uiabot/MAS514-UiABOT/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/install/robot_description:/home/uiabot/MAS514-UiABOT/install/raspi_sub:/home/uiabot/MAS514-UiABOT/install/bno055:/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description:/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description -- -j4 -l4
+[3.790s] Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055:/home/uiabot/MAS514-UiABOT/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/install/robot_description:/home/uiabot/MAS514-UiABOT/install/raspi_sub:/home/uiabot/MAS514-UiABOT/install/bno055:/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description:/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description -- -j4 -l4
+[3.900s] Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055:/home/uiabot/MAS514-UiABOT/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/install/robot_description:/home/uiabot/MAS514-UiABOT/install/raspi_sub:/home/uiabot/MAS514-UiABOT/install/bno055:/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description:/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description
+[3.940s] -- Install configuration: ""
+[3.940s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/launch
+[3.940s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/launch/robot_launch.launch.py
+[3.940s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/launch/launch_sim.launch.py
+[3.944s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/launch/rsp.launch.py
+[3.947s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description
+[3.948s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/robot_core.xacro
+[3.948s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/lidar.xacro
+[3.948s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/inertial_macros.xacro
+[3.948s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/AssemUiAminibot2 .STL
+[4.224s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/Motor.STL
+[4.229s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/RP-lidar-A1.STL
+[4.279s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/MotorBracket.STL
+[4.281s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/SupportWheelBracket_v03.STL
+[4.281s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/robot.urdf.xacro
+[4.282s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/UiAFullWafflePlate.STL
+[4.300s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/ros2_control.xacro
+[4.300s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/RPLidarCasingV3_Wcut.STL
+[4.306s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/description/gazebo_control.xacro
+[4.307s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/serial_interface.py
+[4.307s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/odom.py
+[4.308s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/base_to_tf.py
+[4.308s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/joint_state_publisher.py
+[4.310s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/sllidar_node.cpp
+[4.310s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/bno_node.py
+[4.311s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/lib/robot_description/tf_bno.py
+[4.312s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[4.313s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[4.315s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[4.315s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[4.316s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[4.317s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[4.318s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[4.318s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[4.320s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[4.320s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[4.321s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[4.323s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[4.324s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[4.324s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[4.327s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description/share/robot_description/package.xml
+[4.351s] Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055:/home/uiabot/MAS514-UiABOT/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/install/robot_description:/home/uiabot/MAS514-UiABOT/install/raspi_sub:/home/uiabot/MAS514-UiABOT/install/bno055:/home/uiabot/MAS514-UiABOT/ros2_ws/install/sllidar_ros2:/home/uiabot/MAS514-UiABOT/ros2_ws/install/robot_description:/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/robot_description

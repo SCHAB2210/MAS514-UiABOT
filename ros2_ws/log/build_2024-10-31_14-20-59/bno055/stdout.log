@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.1 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/uiabot/MAS514-UiABOT/ros2_ws/build/bno055
+-- Install configuration: ""
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/lib/bno055/bno_node.py
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/lib/bno055/tf_bno.py
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/ament_index/resource_index/package_run_dependencies/bno055
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/ament_index/resource_index/parent_prefix_path/bno055
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/environment/ament_prefix_path.sh
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/environment/ament_prefix_path.dsv
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/environment/path.sh
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/environment/path.dsv
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/local_setup.bash
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/local_setup.sh
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/local_setup.zsh
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/local_setup.dsv
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.dsv
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/ament_index/resource_index/packages/bno055
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/cmake/bno055Config.cmake
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/cmake/bno055Config-version.cmake
+-- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/bno055/share/bno055/package.xml

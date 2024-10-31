@@ -16,7 +16,7 @@ set(_bno055_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT bno055_FIND_QUIETLY)
-  message(STATUS "Found bno055: 0.0.0 (${bno055_DIR})")
+  message(STATUS "Found bno055: 0.1.0 (${bno055_DIR})")
 endif()
 
 # warn when using a deprecated package

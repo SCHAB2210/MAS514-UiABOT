@@ -1,0 +1,51 @@
+[0.033s] Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub
+[0.223s] -- The C compiler identification is GNU 13.2.0
+[0.397s] -- The CXX compiler identification is GNU 13.2.0
+[0.438s] -- Detecting C compiler ABI info
+[0.648s] -- Detecting C compiler ABI info - done
+[0.664s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.664s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.683s] -- Detecting CXX compiler ABI info
+[0.936s] -- Detecting CXX compiler ABI info - done
+[0.952s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.954s] -- Detecting CXX compile features
+[0.954s] -- Detecting CXX compile features - done
+[0.958s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.292s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.529s] -- Found rclpy: 7.1.1 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.531s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.587s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.609s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.730s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.005s] -- Configuring done (1.9s)
+[2.013s] -- Generating done (0.0s)
+[2.016s] -- Build files have been written to: /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub
+[2.037s] Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/uiabot/MAS514-UiABOT/ros2_ws/src/raspi_sub -DCMAKE_INSTALL_PREFIX=/home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub
+[2.038s] Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub -- -j4 -l4
+[2.126s] Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub -- -j4 -l4
+[2.183s] Invoking command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub
+[2.200s] -- Install configuration: ""
+[2.200s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/forward_kinematic.py
+[2.200s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/odom.py
+[2.201s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/base_to_tf.py
+[2.201s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/serial_interface.py
+[2.201s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/lib/raspi_sub/joint_state_publisher.py
+[2.201s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/package_run_dependencies/raspi_sub
+[2.201s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/parent_prefix_path/raspi_sub
+[2.202s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/ament_prefix_path.sh
+[2.202s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/ament_prefix_path.dsv
+[2.202s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/path.sh
+[2.202s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/environment/path.dsv
+[2.203s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.bash
+[2.203s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.sh
+[2.203s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.zsh
+[2.204s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/local_setup.dsv
+[2.204s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.dsv
+[2.205s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/ament_index/resource_index/packages/raspi_sub
+[2.205s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/cmake/raspi_subConfig.cmake
+[2.205s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/cmake/raspi_subConfig-version.cmake
+[2.209s] -- Installing: /home/uiabot/MAS514-UiABOT/ros2_ws/install/raspi_sub/share/raspi_sub/package.xml
+[2.214s] Invoked command in '/home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uiabot/ros2_ws/install/robot_keyboard_control:/home/uiabot/ros2_ws/install/my_publisher_package:/home/uiabot/ros2_ws/install/my_listener_package:/home/uiabot/ros2_ws/install/esp32_com:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/uiabot/MAS514-UiABOT/ros2_ws/build/raspi_sub

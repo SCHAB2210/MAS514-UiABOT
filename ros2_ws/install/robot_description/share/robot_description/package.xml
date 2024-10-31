@@ -17,6 +17,8 @@
   <depend>urdf</depend>
   <depend>xacro</depend>
   <depend>tf2_ros</depend>
+  <depend>bno055</depend>
+
 
   <!-- Dependencies for messages and topics -->
   <depend>sensor_msgs</depend>
